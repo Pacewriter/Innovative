@@ -4,70 +4,171 @@
         <meta charset="UTF-8">
         <meta name = "viewport" 
         content = "width=device-width, initial-scale=1.0">
-        <title>Deecrisps Website</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
-        <link rel="stylesheet" href="./style.css" />
+        <title>Landing Page</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="./Style.css" />
     </head>
-    <style>
-        
-    </style>
 
     <body>
-        <div class="page-wrapper">
-            <div id="Navbar" class="Navbar-container">
-                <nav class="navbar" aria-label="First navbar example"> 
-                    <div class="container-fluid"> 
-                        <p class="navbar-brand" href=""> <img src="./Deecrisps logo.jpg" width="50px"/> DeeCrisps</p>
-                        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation"> 
-                            <span class="navbar-toggler-icon"></span> 
-                        </button> 
-                        <div class="navbar-collapse collapse" id="navbarsExample01"> 
-                            <ul class="navbar-nav me-auto mb-2"> 
-                                <li class="nav-item"> <a class="nav-link active" aria-current="page" href="./index.html">Home</a> </li> 
-                                <li class="nav-item"> <a class="nav-link active" aria-current="page" href=" ">Prices</a> </li> 
-                                <li class="nav-item"> <a class="nav-link" href="">About</a> </li>  
-                            </ul> 
-                        </div> 
-                    </div>
-                </nav> 
-            </div>
-            
-            
-            
-            <div id="Heroes" class="Heroes-container px-3 px-md-5">
-                <div class="row flex-lg-row-reverse align-items-center g-5 py-5 justify-content-center hero-inner"> 
-                    <div class="col-10 col-sm-8 col-lg-6 small-heroes"> 
-                        <img src="./Deecrisps photo 2.jpg" class="d-block mx-lg-auto img-fluid" alt="Plantain chips stacked on stairs" width="400" height="400" loading="lazy"> 
-                    </div>
-                    <div class="col-lg-6 small-heroes"> 
-                        <h1 class="header1  fw-bold lh-1 mb-3">DeeCrisps <br /> Plantain Chips</h1> 
-                        <p class="lead">Deliciously crunchy, naturally gluten-free</p> 
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-start"> 
-                            <button type="button" class=" buttons btn  btn-lg "><a class="DM" href = "http://Wa.me/+2349166294457"></a>Shop now</button> 
-                        </div> 
-                    </div>     
-                </div>    
-            </div>
-
-
-            <div id="footer" class="footer-container"> 
-                <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 "> 
-                    <div class=" foot col-md-4 d-flex align-items-center"> 
-                        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap"> 
-                            <svg class="bi" width="30" height="24" aria-hidden="true"><use xlink:href="#bootstrap"></use></svg> 
-                        </a> 
-                        <p><span class="mb-3 mb-md-0 ">© 2025 Deecrisps, Inc</span></p> 
+        <div class="container">
+            <div class="Home">
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-5"> 
+                    <div class=" earphones col-sm-8 col-lg-6"> 
+                        <img src="./Earpods.jpg" class=" d-block mx-lg-auto img-fluid" alt="Earpods" width="400" height="300" loading="lazy"> 
                     </div> 
-                    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex"> 
-                        <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Instagram"><svg class="bi" width="24" height="24" aria-hidden="true"><use xlink:href="#instagram"></use></svg></a></li> 
-                        <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Facebook"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li> 
-                    </ul> 
-                </footer> 
+                    <div class="col-lg-6"> 
+                        <h1 class="display-1 fw-bold text-body-emphasis lh-1 mb-3">Innovative <br /> Tech Gadgets</h1> 
+                        <p class="lead"> Upgrade your life with the latest tech</p> 
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start"> 
+                            <button type="button" class="btn btn-primary btn-xxl px-4 me-md-2">Shop Now</button>  
+                        </div> 
+                    </div> 
+                </div>
+                
             </div>
 
-        
-        </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+            <h2 class="h2">Featured Products</h2>
+            <div class="Product-grid">
+                <div>
+                    <img class="Earpods" src="./Earpods.jpg" width="250px" height="250px" alt="Earpods"/>
+                    <p>Earpods</p>
+                </div>
+                <div>
+                    <img class="Smart-watch" src="./Smartwatch.jpg" width="250px" height="250px" alt="Smart Watch" />
+                    <p>Smart watches</p>
+                </div>
+                <div>
+                    <img class="Speakers" src="./Speakers.jpg" width="250px" height="250px" alt="speakers" />
+                    <p>Speakers</p>
+                </div>
+                <div>
+                    <img class="Accessories" src="./Charger.jpg" width="250px" height="250px" alt="Accessories" />
+                    <p>Accessories</p>
+                </div>
+            </div>
 
+            <h2>Products Pricing</h2>
+            <div class="pricing-container">
+                <div class="row row-cols-1 row-cols-md-4 mb-3 text-center"> 
+                    <div class="col"> 
+                        <div class="card mb-4 rounded-3 shadow-sm"> 
+                            <div class="card-header py-3"> 
+                                <h4 class="my-0 fw-normal">Charger</h4> 
+                            </div> 
+                            <div class="card-body">
+                                <img src="./Charger.jpg" alt="Charger" width="100" /> 
+                                <h1 class="card-title pricing-card-title">$5<small class="text-body-secondary fw-light"></small></h1> 
+                                <ul class="list-unstyled mt-3 mb-4"> 
+                                    <li>Fast charge</li> 
+                                    <li>Multiple outputs</li> 
+                                    <li>45W supervooc</li>  
+                                </ul> 
+                                <button type="button" class="w- btn btn-lg btn-outline-primary">Shop Now</button> 
+                            </div> 
+                        </div> 
+                    </div> 
+                    <div class="col"> 
+                        <div class="card mb-4 rounded-3 shadow-sm"> 
+                            <div class="card-header py-3"> 
+                                <h4 class="my-0 fw-normal">Earpods</h4> 
+                            </div> 
+                            <div class="card-body">
+                                <img src="./Earpods.jpg" alt="Earpods" width="100" /> 
+                                <h1 class="card-title pricing-card-title">$20<small class="text-body-secondary fw-light"></small></h1> 
+                                <ul class="list-unstyled mt-3 mb-4"> 
+                                    <li>4000Mah pod</li> 
+                                    <li>Bass speaker</li> 
+                                    <li>Noise cancellers</li>  
+                                </ul> 
+                                <button type="button" class="w- btn btn-lg btn-primary">Shop Now</button> 
+                            </div> 
+                        </div> 
+                    </div> 
+                    <div class="col"> 
+                        <div class="card mb-4 rounded-3 shadow-sm border-primary"> 
+                            <div class="card-header py-3 text-bg-primary border-primary"> 
+                                <h4 class="my-0 fw-normal">Smartwatch</h4> 
+                            </div> 
+                            <div class="card-body"> 
+                                <img src="./Smartwatch.jpg" alt="Smartwatch" width="80" />
+                                <h1 class="card-title pricing-card-title">$100<small class="text-body-secondary fw-light"></small></h1> 
+                                <ul class="list-unstyled mt-3 mb-4"> 
+                                    <li>ECG sensors</li> 
+                                    <li>Heart rate monitors</li> 
+                                    <li>Pedometers</li>  
+                                </ul> 
+                                <button type="button" class="w- btn btn-lg btn-primary">Contact us</button> 
+                            </div> 
+                        </div> 
+                    </div>
+                    
+                    <div class="col"> 
+                        <div class="card mb-4 rounded-3 shadow-sm border-primary"> 
+                            <div class="card-header py-3 text-bg-primary border-primary"> 
+                                <h4 class="my-0 fw-normal">Speaker</h4> 
+                            </div> 
+                            <div class="card-body"> 
+                                <img src="./Speakers.jpg" alt="Speaker" width="140" />
+                                <h1 class="card-title pricing-card-title">$200<small class="text-body-secondary fw-light"></small></h1> 
+                                <ul class="list-unstyled mt-3 mb-4"> 
+                                    <li>Durable</li> 
+                                    <li>Portable</li> 
+                                    <li>Batter capability - 5000Mah</li> 
+                                </ul> 
+                                <button type="button" class="w- btn btn-lg btn-primary">Contact us</button> 
+                            </div> 
+                        </div> 
+                    </div>
+                    
+                </div>
+
+
+            </div>
+
+
+            <h2>Testimonials</h2>
+            <div class="Testimonials">
+                <div class="worker">
+                    <img class="t-img" src="./Ebuka.jpg" width="100px"/>
+                    <h3>Ebuka</h3>
+                    <p>Suscipit adipiscing bibendum est ultricies. Tortor aliquam nulla facilisi cras fermentum. Eget aliquet nibh praesent
+                    tristique magna. In hac habitasse platea dictumst vestibulum. Ornare quam viverra orci sagittis eu. Sit amet est
+                    placerat in</p>
+                </div>
+
+                <div class="worker">
+                    <img class="t-img" src="./Chidera.jpg" width="100px"/>
+                    <h3>Chidera</h3>
+                    <p>Suscipit adipiscing bibendum est ultricies. Tortor aliquam nulla facilisi cras fermentum. Eget aliquet nibh praesent
+                    tristique magna. In hac habitasse platea dictumst vestibulum. Ornare quam viverra orci sagittis eu. Sit amet est
+                    placerat in</p>
+                </div>
+
+                <div class="worker">
+                    <img class="t-img" src="./Chibuikem.jpg" width="100px"/>
+                    <h3>Chibuikem</h3>
+                    <p>Suscipit adipiscing bibendum est ultricies. Tortor aliquam nulla facilisi cras fermentum. Eget aliquet nibh praesent
+                    tristique magna. In hac habitasse platea dictumst vestibulum. Ornare quam viverra orci sagittis eu. Sit amet est
+                    placerat in</p>
+                </div>
+            </div>
+
+            <footer class="py-3 my-4"> 
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3"> 
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li> 
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li> 
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li> 
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li> 
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li> 
+                </ul> 
+                <p>&copy; 2025 Tech Gadgets. All rights reserved.</p>
+            </footer>
+
+                
+            
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     </body>
-</html>   
+    
+</html>    
