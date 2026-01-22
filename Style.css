@@ -1,11 +1,8 @@
-
-
 .Home{
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: whitesmoke;
-    padding: 50px;
-    height: 600px;  
-    width: 1300px;
+    padding: 50px;  
+    width: 100%;
     margin-bottom: 50px;
     margin-top: 20px;  
 }
@@ -13,9 +10,16 @@
 
 .Product-grid{
     display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
     justify-content: center;
-    justify-content:space-between;
+    justify-content: space-between;
+    flex: 1 1 200px;
+    text-align: center;
+}
 
+.pricing-container{
+    margin-top: 40px;
 }
 
 .words-img{
@@ -29,17 +33,50 @@
 
 .Testimonials{
     display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
     justify-content: center;
     justify-content: space-between;
+    margin-top: 30px;
 }
 
 .worker{
-    border: 2px solid black;
+    border: 1px solid gray;
+    padding: 20px;
+    max-width: 350px;
+    width: 100%;
+    text-align: center;
 }
 
+.t-img{
+    border-radius: 50%;
+}
 
+@media (max-width: 768px){
+    .Home{
+        padding: 30px;
+        text-align: center;
+    }
 
+    h1{
+        font-size: 2.2rem;
+    }
 
+    .Product-grid img{
+        width: 180px;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px){
+    h1{
+        font: 1.8rem;
+    }
+
+    .btn{
+        width: 100%;
+    }
+}
 
 
 
