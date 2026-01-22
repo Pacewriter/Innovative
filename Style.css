@@ -1,0 +1,45 @@
+
+
+.Home{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+    padding: 50px;
+    height: 600px;  
+    width: 1300px;
+    margin-bottom: 50px;
+    margin-top: 20px;  
+}
+
+
+.Product-grid{
+    display: flex;
+    justify-content: center;
+    justify-content:space-between;
+
+}
+
+.words-img{
+    display: inline-block;
+}
+
+
+.speaker{
+    margin-top: 20px;
+}
+
+.Testimonials{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.worker{
+    border: 2px solid black;
+}
+
+
+
+
+
+
+
